@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bg1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="off.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="on.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="levelBgImage.jpeg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level4Locked.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level3Locked.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level2Locked.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level1Image.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="exit.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="instructions.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="settings.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="start.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aeris.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aerishover.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aquae.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aquaehover.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="club.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="ignis.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="ignishover.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="terra.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="terrahover.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level1bg.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_left_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="walk_right_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_special_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_attack_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_14.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_13.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_12.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_10.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_special_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_attack_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_defend_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_defend_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_defend_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="projectile.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level4Image.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level3Image.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level2Image.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="arlevel1bg.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aqlevel1bg.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="earthbg.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="firebg.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="terralevel1bg.jpg">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_throw_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level2bg.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="aqlevel2BattleBg.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="player_jump_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_13.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_12.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_11.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_10.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_9.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_8.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_7.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_6.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_5.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_4.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_3.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_2.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_charge_1.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="enemy_3rd_projectile.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="level3bg.png">
+      <Filter>Source Files</Filter>
+    </Image>
+    <Image Include="instructionBgImage.png">
+      <Filter>Source Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audios\locked.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+    <Media Include="Audios\beep.wav">
+      <Filter>Source Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>

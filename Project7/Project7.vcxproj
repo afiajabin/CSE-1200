@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{64E7ABE4-549A-4CB0-B861-0D7CD58CEB16}</ProjectGuid>
+    <RootNamespace>Project7</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="iMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="1.png" />
+    <Image Include="2.png" />
+    <Image Include="3.png" />
+    <Image Include="4.png" />
+    <Image Include="5.png" />
+    <Image Include="6.png" />
+    <Image Include="7.png" />
+    <Image Include="aeris.png" />
+    <Image Include="aerishover.png" />
+    <Image Include="aqlevel1bg.jpg" />
+    <Image Include="aqlevel2BattleBg.png" />
+    <Image Include="aquae.png" />
+    <Image Include="aquaehover.png" />
+    <Image Include="arlevel1bg.jpg" />
+    <Image Include="bg1.png" />
+    <Image Include="club.png" />
+    <Image Include="earthbg.jpg" />
+    <Image Include="enemy_3rd_projectile.png" />
+    <Image Include="enemy_attack_1.png" />
+    <Image Include="enemy_attack_2.png" />
+    <Image Include="enemy_attack_3.png" />
+    <Image Include="enemy_attack_4.png" />
+    <Image Include="enemy_attack_5.png" />
+    <Image Include="enemy_attack_6.png" />
+    <Image Include="enemy_attack_7.png" />
+    <Image Include="enemy_attack_8.png" />
+    <Image Include="enemy_attack_9.png" />
+    <Image Include="enemy_charge_1.png" />
+    <Image Include="enemy_charge_10.png" />
+    <Image Include="enemy_charge_11.png" />
+    <Image Include="enemy_charge_12.png" />
+    <Image Include="enemy_charge_13.png" />
+    <Image Include="enemy_charge_2.png" />
+    <Image Include="enemy_charge_3.png" />
+    <Image Include="enemy_charge_4.png" />
+    <Image Include="enemy_charge_5.png" />
+    <Image Include="enemy_charge_6.png" />
+    <Image Include="enemy_charge_7.png" />
+    <Image Include="enemy_charge_8.png" />
+    <Image Include="enemy_charge_9.png" />
+    <Image Include="enemy_special_1.png" />
+    <Image Include="enemy_special_2.png" />
+    <Image Include="enemy_special_3.png" />
+    <Image Include="enemy_special_4.png" />
+    <Image Include="enemy_special_5.png" />
+    <Image Include="enemy_special_6.png" />
+    <Image Include="enemy_special_7.png" />
+    <Image Include="enemy_throw_1.png" />
+    <Image Include="enemy_throw_2.png" />
+    <Image Include="enemy_throw_3.png" />
+    <Image Include="enemy_throw_4.png" />
+    <Image Include="enemy_throw_5.png" />
+    <Image Include="enemy_throw_6.png" />
+    <Image Include="enemy_throw_7.png" />
+    <Image Include="enemy_throw_8.png" />
+    <Image Include="exit.png" />
+    <Image Include="firebg.jpg" />
+    <Image Include="ignis.png" />
+    <Image Include="ignishover.png" />
+    <Image Include="instructionBgImage.png" />
+    <Image Include="instructions.png" />
+    <Image Include="level1bg.png" />
+    <Image Include="level1Image.png" />
+    <Image Include="level2bg.png" />
+    <Image Include="level2Image.png" />
+    <Image Include="level2Locked.png" />
+    <Image Include="level3bg.png" />
+    <Image Include="level3Image.png" />
+    <Image Include="level3Locked.png" />
+    <Image Include="level4Image.png" />
+    <Image Include="level4Locked.png" />
+    <Image Include="levelBgImage.jpeg" />
+    <Image Include="off.png" />
+    <Image Include="on.png" />
+    <Image Include="player_attack_1.png" />
+    <Image Include="player_attack_2.png" />
+    <Image Include="player_attack_3.png" />
+    <Image Include="player_attack_4.png" />
+    <Image Include="player_attack_5.png" />
+    <Image Include="player_attack_6.png" />
+    <Image Include="player_attack_7.png" />
+    <Image Include="player_defend_1.png" />
+    <Image Include="player_defend_2.png" />
+    <Image Include="player_defend_3.png" />
+    <Image Include="player_jump_1.png" />
+    <Image Include="player_jump_2.png" />
+    <Image Include="player_jump_3.png" />
+    <Image Include="player_jump_4.png" />
+    <Image Include="player_jump_5.png" />
+    <Image Include="player_jump_6.png" />
+    <Image Include="player_jump_7.png" />
+    <Image Include="player_jump_8.png" />
+    <Image Include="player_jump_9.png" />
+    <Image Include="player_special_1.png" />
+    <Image Include="player_special_10.png" />
+    <Image Include="player_special_11.png" />
+    <Image Include="player_special_12.png" />
+    <Image Include="player_special_13.png" />
+    <Image Include="player_special_14.png" />
+    <Image Include="player_special_2.png" />
+    <Image Include="player_special_3.png" />
+    <Image Include="player_special_4.png" />
+    <Image Include="player_special_5.png" />
+    <Image Include="player_special_6.png" />
+    <Image Include="player_special_7.png" />
+    <Image Include="player_special_8.png" />
+    <Image Include="player_special_9.png" />
+    <Image Include="projectile.png" />
+    <Image Include="settings.png" />
+    <Image Include="start.png" />
+    <Image Include="terra.png" />
+    <Image Include="terrahover.png" />
+    <Image Include="terralevel1bg.jpg" />
+    <Image Include="walk_left_1.png" />
+    <Image Include="walk_left_2.png" />
+    <Image Include="walk_left_3.png" />
+    <Image Include="walk_left_4.png" />
+    <Image Include="walk_left_5.png" />
+    <Image Include="walk_left_6.png" />
+    <Image Include="walk_right_1.png" />
+    <Image Include="walk_right_2.png" />
+    <Image Include="walk_right_3.png" />
+    <Image Include="walk_right_4.png" />
+    <Image Include="walk_right_5.png" />
+    <Image Include="walk_right_6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audios\beep.wav" />
+    <Media Include="Audios\locked.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
